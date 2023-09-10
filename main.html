@@ -10,7 +10,7 @@
 	<script>
 		function secondHighest(arr) {
 	if(arr.length<=1){
-		return "-Infinity";
+		return "Infinity";
 	}
 			let maxi=Math.max(...arr);
 				let secondMax=Number.MIN_VALUE;
@@ -20,7 +20,7 @@
 					
 				}
 			if(secondMax==Number.MIN_VALUE || secondMax==maxi){
-				return "-Infinity";
+				return "Infinity";
 				
 			}
 				return secondMax; 
